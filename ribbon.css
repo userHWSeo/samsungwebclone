@@ -1,0 +1,7 @@
+.shop-ribbon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfd;
+  height: 30px;
+}
