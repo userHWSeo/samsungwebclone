@@ -1,34 +1,26 @@
 .nav-bar {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(8, 7rem);
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  background-color: #bcb1e5;
-  height: 45px;
+  background-color: #74bfeb;
 }
 
 .nav-bar :nth-child(1) {
   cursor: pointer;
 }
 
-.category button {
-  background-color: #bcb1e5;
+.nav-bar button,
+.nav-icons {
+  background-color: #74bfeb;
   border: none;
-  font-size: 12px;
   font-weight: 800;
   cursor: pointer;
-}
-
-.category {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
-
-.nav_phone {
-  margin-left: 80px;
+  background-color: #74bfeb;
 }
 .nav-icons i {
-  margin-left: 14px;
-  margin-top: 3px;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
   cursor: pointer;
 }
