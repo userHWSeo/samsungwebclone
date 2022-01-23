@@ -5,6 +5,10 @@
   justify-items: center;
   align-items: center;
   background-color: #74bfeb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .nav-bar :nth-child(1) {
@@ -21,6 +25,10 @@
 }
 .nav-icons i {
   margin-left: 1rem;
-  margin-top: 0.3rem;
   cursor: pointer;
+}
+
+.nav-bar button {
+  font-family: "Dongle", sans-serif;
+  font-size: 1.7rem;
 }

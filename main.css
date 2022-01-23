@@ -23,6 +23,12 @@
   width: 120%;
 }
 
+h2,
+h3,
+a {
+  font-family: "Gugi", cursive;
+}
+
 .unit-name-1 {
   margin-top: 3rem;
 }
@@ -40,14 +46,12 @@
 .unit-1 h2 {
   text-align: center;
   font-size: 3rem;
-  font-weight: 600;
   margin-bottom: 2.5rem;
 }
 
 .unit-1 h3 {
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 600;
 }
 
 .unit-2 {
@@ -61,7 +65,6 @@
 .unit-2 h2 {
   text-align: center;
   font-size: 3rem;
-  font-weight: 600;
   background-color: #d4f6e6;
   color: black;
   margin-bottom: 2.5rem;
@@ -70,7 +73,6 @@
 .unit-2 h3 {
   text-align: center;
   font-size: 1.3rem;
-  font-weight: 600;
   color: black;
 }
 
@@ -82,7 +84,6 @@
 .unit-3 h2 {
   text-align: center;
   font-size: 3rem;
-  font-weight: 600;
   background-color: #f4f4f4;
   color: black;
   margin-bottom: 2.5rem;
@@ -94,7 +95,6 @@
   font-size: 1.3rem;
   background-color: #f4f4f4;
   color: black;
-  font-weight: 600;
 }
 
 .unit-4 {
@@ -107,7 +107,6 @@
 .unit-4 h2 {
   text-align: center;
   font-size: 3rem;
-  font-weight: 600;
   background-color: black;
   color: white;
   margin-bottom: 2.5rem;
@@ -117,7 +116,6 @@
   text-align: center;
   font-size: 1.3rem;
   background-color: black;
-  font-weight: 600;
   color: white;
 }
 .link-icon,
@@ -126,21 +124,28 @@
 .link-icon-4 {
   text-align: center;
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .link-icon a,
-.link-icon-2 a {
-  text-decoration-line: none;
-  color: #4c6ef5;
-}
-
-.link-icon-3 a,
-.link-icon-4 a {
-  text-decoration-line: none;
-  color: #97fd89;
-}
-
+.link-icon-2 a,
 .link-icon-3 a {
   text-decoration-line: none;
   color: #4c6ef5;
+  margin-right: 10px;
+}
+
+.link-icon-4 a {
+  text-decoration-line: none;
+  color: #97fd89;
+  margin-right: 10px;
+}
+
+.link-icon a:hover,
+.link-icon-2 a:hover,
+.link-icon-3 a:hover {
+  border-bottom: #4c6ef5 solid 1px;
+}
+.link-icon-4 a:hover {
+  border-bottom: #97fd89 solid 1px;
 }
