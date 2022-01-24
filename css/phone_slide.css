@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li img {
+  width: 700px;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.phone-container {
+  width: 700px;
+  height: 800px;
+  position: relative;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.container_slide {
+  display: flex;
+  position: absolute;
+  width: 1000px;
+  transition: left 0.5s ease-out;
+}
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 500px;
+  left: 100px;
+  top: 250px;
+}
+
+.left-btn,
+.right-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+.left-btn:hover {
+  transform: translateX(-10px);
+}
+.right-btn:hover {
+  transform: translateX(10px);
+}
