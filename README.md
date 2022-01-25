@@ -56,7 +56,8 @@
 22.01.21
 Main 4가지 베스트셀러 [The FreeStyle]에서 [Galaxy S7 FE]로 변경
 <br>최소 width : 920 부터 반응하도록 만듬
-<br>font 반응형을 알아보고 추후 모바일에서도 접근가능하도록 할 예정
+<br>~~font 반응형을 알아보고 추후 모바일에서도 접근가능하도록 할 예정~~
+<br>모바일, 태블릿, PC에서의 각각 다른 화면비율값을 입력하여, 반응하도록 만들 예정 (미디어쿼리 사용할 생각)
 
 22.01.23
 <br>nav-bar 상단 fixed 업데이트
@@ -66,3 +67,8 @@ Main 4가지 베스트셀러 [The FreeStyle]에서 [Galaxy S7 FE]로 변경
 22.01.24
 <br>Phone html 생성.
 <br>JavaScript를 활용한 slider 제작
+
+22.01.25
+<br>slider 보완 및 마무리
+<br>구매 창 html 생성
+<br>Handler를 활용한 Phone img 변경 제작시작

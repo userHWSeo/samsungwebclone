@@ -1,21 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 li img {
   width: 700px;
   height: 500px;
-  margin-top: 10px;
 }
 
 .phone-container {
   width: 700px;
-  height: 800px;
+  height: 500px;
   position: relative;
   margin: 100px auto;
   overflow: hidden;
+  right: 300px;
 }
 
 .container_slide {

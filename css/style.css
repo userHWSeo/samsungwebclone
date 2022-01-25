@@ -3,4 +3,5 @@
 @import "ribbon.css";
 @import "main.css";
 @import "phone.css";
-@import "phone_slide.css";
+@import "phone/phone_slide.css";
+@import "phone/phone_info.css";

@@ -1,6 +1,7 @@
 const containerSlide = document.querySelector('.container_slide');
 const phoneImgs = document.querySelector('.container_slide li');
 let currentIdx = 0;
+
 //Btn
 const prevBtn = document.querySelector('.left-btn');
 const nextBtn = document.querySelector('.right-btn');

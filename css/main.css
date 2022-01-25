@@ -23,9 +23,18 @@
   width: 120%;
 }
 
-h2,
-h3,
-a {
+.unit-1 h2,
+.unit-1 h3,
+.unit-1 a,
+.unit-2 h2,
+.unit-2 h3,
+.unit-2 a,
+.unit-3 h2,
+.unit-3 h3,
+.unit-3 a,
+.unit-4 h2,
+.unit-4 h3,
+.unit-4 a {
   font-family: "Gugi", cursive;
 }
 

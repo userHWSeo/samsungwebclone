@@ -1,0 +1,35 @@
+.memory-option {
+  display: flex;
+  gap: 40px;
+}
+
+.colorBtn button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.colorBtn button:first-child {
+  background-color: black;
+}
+
+.colorBtn button:nth-child(2) {
+  background-color: #223631;
+}
+
+.colorBtn button:last-child {
+  background-color: #cac5c2;
+}
+
+.memory-256g,
+.memory-512g {
+  display: flex;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 80px;
+  border-radius: 20px;
+  border: black solid 2px;
+  justify-content: center;
+  align-items: center;
+}
