@@ -72,3 +72,16 @@ Main 4가지 베스트셀러 [The FreeStyle]에서 [Galaxy S7 FE]로 변경
 <br>slider 보완 및 마무리
 <br>구매 창 html 생성
 <br>Handler를 활용한 Phone img 변경 제작시작
+
+22.01.26
+<br>삼성 홈페이지에서 컬러별 이미지가 달라 Handler를 이용하기 까다로움
+<br>삼성에선 원하는 컬러를 선택하면, 그 컬러에 맞는 html로 바뀌도록 만들었음
+
+<br>Black 색상의 주소
+<br>![블랙색상 주소](img/readme_img/Fold3_black.PNG)
+
+<br>Green 색상의 주소
+<br>![그린색상 주소](img/readme_img/Fold3_Green.PNG)
+
+phone.html을 3가지 컬러별로 만들어 원하는 색깔을 선택 시 그에 맞는 html로 이동하게 만듬
+<br>위와 같이 html을 다르게 하면 각 컬러별로 사진뿐만 아니라 재고현황까지 편하게 관리가 가능함
