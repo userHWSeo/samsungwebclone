@@ -42,10 +42,12 @@
   <br>~~flexbox를 사용한 layout~~
   <br>flexbox 에서 grid로 변경
   <br>nav-bar 상단 고정
+  <br>미디어쿼리를 사용하여 반응형으로 개선
+  <br>자바스크립트의 toggle을 활용하여 모바일에서 nav-bar를 간단하게 만듬
 
 - unit
 
-  <br>베스트셀러 4가지를 main으로 함.
+  <br>베스트셀러 4가지를 main으로 함
   <br>Main img들은 삼성전자 페이지에서 그대로 가져다 활용
   <br>icon은 Font Awesome에서 활용
   <br>grid를 활용한 layout
@@ -78,9 +80,12 @@
 
 <br>Black 색상의 주소
 <br>![블랙색상 주소](img/readme_img/Fold3_black.PNG)
-
 <br>Green 색상의 주소
 <br>![그린색상 주소](img/readme_img/Fold3_Green.PNG)
 
 phone.html을 3가지 컬러별로 만들어 원하는 색깔을 선택 시 그에 맞는 html로 이동하게 만듬
 <br>위와 같이 html을 다르게 하면 각 컬러별로 사진뿐만 아니라 재고현황까지 편하게 관리가 가능함
+
+22.01.29
+<br>미디어 쿼리의 사용으로 반응형으로 개선
+<br>자바스크립트 toggle을 활용한 nav-bar 개선
