@@ -1,8 +1,6 @@
 .nav-bar {
-  display: grid;
-  grid-template-columns: repeat(8, 7rem);
+  display: flex;
   justify-content: center;
-  justify-items: center;
   align-items: center;
   background-color: #74bfeb;
   position: fixed;
@@ -10,7 +8,7 @@
   left: 0;
   right: 0;
   z-index: 10;
-  gap: 10px;
+  gap: 45px;
 }
 
 .nav-bar :nth-child(1) {
@@ -33,4 +31,38 @@
 .nav-bar button {
   font-family: "Dongle", sans-serif;
   font-size: 1.7rem;
+}
+
+.min_nav-bar {
+  display: none;
+}
+
+@media (max-width: 875px) {
+  .samsung-icon,
+  .nav_phone,
+  .nav_tablet,
+  .nav_book,
+  .nav_watch,
+  .nav_buds,
+  .nav_other,
+  .nav-icons {
+    display: none;
+  }
+  .min_nav-bar {
+    display: flex;
+    gap: 450px;
+  }
+  .min_nav-bar i {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .min_nav-bar {
+    display: flex;
+    gap: 250px;
+  }
+  .min_nav-bar i {
+    margin-top: 10px;
+  }
 }
