@@ -69,6 +69,8 @@
   justify-items: flex-end;
   align-items: center;
   background-color: #d4f6e6;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .unit-2 h2 {
@@ -111,6 +113,8 @@
   grid-template-columns: repeat(2, 50%);
   align-items: center;
   background-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .unit-4 h2 {
@@ -163,18 +167,18 @@
   .unit-2 h2,
   .unit-3 h2,
   .unit-4 h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .unit-1 h3,
   .unit-2 h3,
   .unit-3 h3,
   .unit-4 h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .link-icon a,
   .link-icon-2 a,
   .link-icon-3 a,
   .link-icon-4 a {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
