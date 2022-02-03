@@ -7,7 +7,7 @@ const prevBtn = document.querySelector('.left-btn');
 const nextBtn = document.querySelector('.right-btn');
 
 function moveSlide(num){
-    containerSlide.style.left = -num * 700 + 'px';
+    containerSlide.style.left = -num * 38 + 'rem';
     currentIdx = num;
 }
 

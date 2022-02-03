@@ -1,11 +1,58 @@
+.imt-buy-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imt-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 24rem;
+  height: 28rem;
+  border: rgba(177, 177, 177, 0.479) solid 1px;
+  border-radius: 20px;
+  margin: 5rem;
+}
+
+.itm-flag {
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.social-box {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.imt-info h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.imt-info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  width: 18rem;
+  height: 3rem;
+  border-bottom: rgb(206, 205, 205) solid 1px;
+  border-top: rgb(206, 205, 205) solid 1px;
+  color: rgb(133, 133, 133);
+}
+
 .memory-option {
   display: flex;
-  gap: 40px;
+  gap: 2rem;
 }
 
 .colorBtn button {
-  width: 80px;
-  height: 80px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
 }
 
@@ -21,15 +68,23 @@
   background-color: #cac5c2;
 }
 
+.colorBtn button:hover {
+  border: dashed rgb(236, 245, 154) 2px;
+}
+
 .memory-256g,
 .memory-512g {
   display: flex;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
-  width: 200px;
-  height: 80px;
+  width: 5rem;
+  height: 3rem;
   border-radius: 20px;
   border: black solid 2px;
   justify-content: center;
   align-items: center;
+}
+.memory-256g:hover,
+.memory-512g:hover {
+  border: dashed rgb(236, 245, 154) 2px;
 }

@@ -39,8 +39,7 @@
 
   <br>각 카테고리 별 링크를 넣을 예정이며, Phone, Watch, Buds, Tablet만 제작 후 남은 Book,Accessory는 실제 삼성 링크를 넣음.
   <br>SAMSUNG로고는 기존 삼성전자 페이지에서 소스를 그대로 가져다 활용
-  <br>~~flexbox를 사용한 layout~~
-  <br>flexbox 에서 grid로 변경
+  <br>flexbox를 사용한 layout
   <br>nav-bar 상단 고정
   <br>미디어쿼리를 사용하여 반응형으로 개선
   <br>자바스크립트의 toggle을 활용하여 모바일에서 nav-bar를 간단하게 만듬
@@ -89,3 +88,7 @@ phone.html을 3가지 컬러별로 만들어 원하는 색깔을 선택 시 그�
 22.01.29
 <br>미디어 쿼리의 사용으로 반응형으로 개선
 <br>자바스크립트 toggle을 활용한 nav-bar 개선
+
+22.02.03
+<br>Phone_information css 업데이트
+<br>삼성 웹사이트를 살펴보니 윈도우 창에 반응하여 너비와 높이를 조절하는 자바스크립트를 만들 예정.
