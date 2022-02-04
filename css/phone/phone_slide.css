@@ -6,27 +6,25 @@ li img {
 .phone-container {
   display: flex;
   flex-direction: column;
-  width: 35rem;
+  width: 42rem;
   height: 40rem;
   position: relative;
   overflow: hidden;
   top: 80px;
   z-index: 2;
-  right: 4rem;
 }
 
 .container_slide {
   display: flex;
   position: absolute;
-  width: 266rem;
   transition: left 0.5s ease-in-out;
 }
 .arrows {
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 25rem;
-  left: 6rem;
+  width: 30rem;
+  left: 4rem;
   top: 13rem;
 }
 
@@ -38,8 +36,8 @@ li img {
   background-color: white;
 }
 .left-btn:hover {
-  transform: translateX(-10px);
+  transform: translateX(-3px);
 }
 .right-btn:hover {
-  transform: translateX(10px);
+  transform: translateX(3px);
 }
