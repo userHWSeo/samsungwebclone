@@ -7,8 +7,14 @@ const prevBtn = document.querySelector('.left-btn');
 const nextBtn = document.querySelector('.right-btn');
 
 function moveSlide(num){
+    if(window.innerWidth > 1040){
     containerSlide.style.left = -num * 38 + 'rem';
     currentIdx = num;
+    }
+    else{ 
+    containerSlide.style.left = -num * 24 + 'rem';
+    currentIdx = num;
+    }
 }
 
 

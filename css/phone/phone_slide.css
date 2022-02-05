@@ -1,6 +1,6 @@
 li img {
   width: 38rem;
-  height: 28rem;
+  height: 30rem;
 }
 
 .phone-container {
@@ -40,4 +40,38 @@ li img {
 }
 .right-btn:hover {
   transform: translateX(3px);
+}
+
+@media (max-width: 1040px) {
+  li img {
+    width: 24rem;
+    height: 16rem;
+  }
+  .arrows {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 18rem;
+    left: 3rem;
+    top: 7rem;
+  }
+  .left-btn,
+  .right-btn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 8px;
+  }
+  .phone-container {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 30rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    height: 300px;
+    left: 10px;
+  }
 }

@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
 }
 
 .imt-info {
@@ -14,6 +16,7 @@
   border: rgba(177, 177, 177, 0.479) solid 1px;
   border-radius: 20px;
   margin: 5rem;
+  background-color: white;
 }
 
 .itm-flag {
@@ -86,5 +89,78 @@
 }
 .memory-256g:hover,
 .memory-512g:hover {
-  border: dashed rgb(236, 245, 154) 2px;
+  color: white;
+  background-color: rgb(104, 104, 104);
+  border: solid 1px rgb(104, 104, 104);
+}
+
+@media (max-width: 1040px) {
+  .imt-buy-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .imt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 18rem;
+    height: 22rem;
+    border: rgba(177, 177, 177, 0.479) solid 1px;
+    border-radius: 20px;
+    margin: 3rem;
+  }
+  .itm-flag {
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .social-box {
+    display: flex;
+  }
+
+  .imt-info h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .imt-info h3 {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    width: 14rem;
+    height: 2rem;
+    border-bottom: rgb(206, 205, 205) solid 1px;
+    border-top: rgb(206, 205, 205) solid 1px;
+    color: rgb(133, 133, 133);
+  }
+
+  .memory-option {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .colorBtn button {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .memory-256g,
+  .memory-512g {
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 3rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: black solid 1px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+  }
 }
