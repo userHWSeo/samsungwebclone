@@ -1,0 +1,101 @@
+.phone_main_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone_main_info img {
+  width: 80rem;
+  height: 40rem;
+  margin-top: 10rem;
+  margin-bottom: 1.5rem;
+}
+
+.phone_main_info h2 {
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.phone_main_info span {
+  font-size: 1rem;
+  font-family: "Jua", sans-serif;
+}
+
+.phone_main_info p {
+  font-size: 0.8rem;
+  font-family: "Sunflower", sans-serif;
+  margin-bottom: 10rem;
+}
+
+.component-one,
+.component-two,
+.component-three,
+.component-four {
+  display: flex;
+}
+
+.component-one_img img,
+.component-two_img img,
+.component-three_img img,
+.component-four_img img {
+  width: 40rem;
+  height: 40rem;
+}
+
+.component-three_img img {
+  width: 40rem;
+  height: 40rem;
+}
+
+span,
+p {
+  line-height: 1.5rem;
+}
+
+.component-one_text,
+.component-two_text,
+.component-three_text,
+.component-four_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40rem;
+  height: 60rem;
+  margin-left: 5rem;
+}
+
+.component-one_text p,
+.component-two_text p,
+.component-three_text p,
+.component-four_text p {
+  margin-top: 5rem;
+}
+
+.compare-z {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compare-z img {
+  margin-top: 2rem;
+}
+
+.compare-z h2 {
+  margin-top: 2rem;
+}
+
+.compare-z p {
+  text-align: center;
+}
+
+.combine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.combine h2 {
+  margin-top: 2rem;
+}

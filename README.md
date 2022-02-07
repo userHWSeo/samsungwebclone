@@ -92,11 +92,17 @@ phone.html을 3가지 컬러별로 만들어 원하는 색깔을 선택 시 그�
 22.02.03
 <br>Phone_information css 업데이트
 <br>삼성 웹사이트를 살펴보니 윈도우 창에 반응하여 너비와 높이를 조절하는 자바스크립트를 만들 예정.
+
 22.02.04
 <br>윈도우 창에 반응하는 너비와 높이 조절을 할려했으나 모든 width와 heigh값을 바꿔야함.
 <br>( window.resize와 함수를 통한 사이즈 조절을 할려했으나 앞서 만든 모든 width와 height값을 바꿔야함.)
 <br>반응형은 미디어쿼리로 할 예정.
+
 22.02.05
 <br>미디어 쿼리로 phone.html도 스마트폰에서 원활하게 사용가능
-<br>phone_main_information 제
-<br>추후 스크롤에 따른 애니메이션을 JavaScript로 제작 예정
+<br>phone_main_information 제작후 스크롤에 따른 애니메이션을 JavaScript로 제작 예정
+
+22.02.07
+<br>phone_main_information 제작완료
+<br>footer 제작 예정
+<br>반응형 추가할 예정
