@@ -44,11 +44,6 @@
   height: 40rem;
 }
 
-.component-three_img img {
-  width: 40rem;
-  height: 40rem;
-}
-
 span,
 p {
   line-height: 1.5rem;
@@ -98,4 +93,119 @@ p {
 }
 .combine h2 {
   margin-top: 2rem;
+}
+
+@media (max-width: 1040px) {
+  .phone_main_info img {
+    width: 26rem;
+    height: 16rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+  }
+  .img_numtwo {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .phone_main_info h2 {
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: "Black Han Sans", sans-serif;
+  }
+
+  .phone_main_info span {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-family: "Jua", sans-serif;
+  }
+
+  .phone_main_info p {
+    font-size: 0.4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-family: "Sunflower", sans-serif;
+    margin-bottom: 5rem;
+  }
+
+  .component-one,
+  .component-two,
+  .component-three,
+  .component-four {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .component-two,
+  .component-four {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .component-one_img img,
+  .component-two_img img,
+  .component-three_img img,
+  .component-four_img img {
+    width: 26rem;
+    height: 16rem;
+  }
+  span,
+  p {
+    line-height: 1.3rem;
+  }
+  .component-one_text,
+  .component-two_text,
+  .component-three_text,
+  .component-four_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+    margin-left: 3rem;
+  }
+
+  .component-one_text {
+    height: 40rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .component-two_text {
+    height: 20rem;
+    margin-top: 3rem;
+  }
+  .component-three_text {
+    height: 15rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+  .component-four_text {
+    height: 35rem;
+  }
+
+  .component-one_text h2,
+  .component-three_text h2,
+  .component-four_text h2 {
+    margin-left: 5rem;
+  }
+
+  .component-two_text h2 {
+    margin-left: 4rem;
+  }
+
+  .component-one_text p,
+  .component-two_text p,
+  .component-three_text p,
+  .component-four_text p {
+    margin-top: 3rem;
+  }
+  .compare-z p {
+    margin-top: 2rem;
+    font-size: 0.2rem;
+    text-align: center;
+  }
 }

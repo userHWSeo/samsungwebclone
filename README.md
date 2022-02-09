@@ -106,3 +106,7 @@ phone.html을 3가지 컬러별로 만들어 원하는 색깔을 선택 시 그�
 <br>phone_main_information 제작완료
 <br>footer 제작 예정
 <br>반응형 추가할 예정
+
+22.02.09
+<br>phone_footer 추가
+<br>미디어쿼리로 모바일에서도 볼 수 있도록 반응형 추가
