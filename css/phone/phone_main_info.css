@@ -97,14 +97,8 @@ p {
 
 @media (max-width: 1040px) {
   .phone_main_info img {
-    width: 26rem;
+    width: 25.7rem;
     height: 16rem;
-    margin-top: 5rem;
-    margin-bottom: 1.5rem;
-  }
-  .img_numtwo {
-    width: 1rem;
-    height: 1rem;
     margin-top: 5rem;
     margin-bottom: 1.5rem;
   }
@@ -133,24 +127,24 @@ p {
   }
 
   .component-one,
-  .component-two,
-  .component-three,
-  .component-four {
+  .component-three {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .component-two,
   .component-four {
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
   }
 
   .component-one_img img,
   .component-two_img img,
   .component-three_img img,
   .component-four_img img {
-    width: 24rem;
+    width: 23.5rem;
     height: 14rem;
   }
   span,
@@ -163,16 +157,15 @@ p {
   .component-four_text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 20rem;
     height: 20rem;
-    margin-left: 3rem;
+    margin-left: 0;
   }
 
   .component-one_text {
     height: 40rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
   }
   .component-two_text {
     height: 20rem;
@@ -187,26 +180,20 @@ p {
     height: 35rem;
   }
 
-  .component-one_text h2,
-  .component-three_text h2,
-  .component-four_text h2 {
-    margin-left: 5rem;
-  }
-
-  .component-two_text h2 {
-    margin-left: 4rem;
-  }
-
   .component-one_text p,
   .component-two_text p,
   .component-three_text p,
   .component-four_text p {
     margin-top: 3rem;
   }
+  .compare-z img {
+    width: 24rem;
+  }
   .compare-z p {
     margin-top: 2rem;
     font-size: 0.2rem;
     text-align: center;
+    margin: 0 2rem 0 2rem;
   }
   .combine span {
     margin-left: 2rem;
