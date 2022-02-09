@@ -150,8 +150,8 @@ p {
   .component-two_img img,
   .component-three_img img,
   .component-four_img img {
-    width: 26rem;
-    height: 16rem;
+    width: 24rem;
+    height: 14rem;
   }
   span,
   p {
@@ -207,5 +207,9 @@ p {
     margin-top: 2rem;
     font-size: 0.2rem;
     text-align: center;
+  }
+  .combine span {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
