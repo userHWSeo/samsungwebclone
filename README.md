@@ -19,9 +19,9 @@
 
 - Main
 - Phone
-- Watch
-- Tablet
-- Buds
+  ~~- Watch~~
+  ~~- Tablet~~
+  ~~- Buds~~
 
 총 4개의 웹페이지를 제작 예정
 
@@ -37,20 +37,34 @@
 
 - nav-bar
 
-  <br>각 카테고리 별 링크를 넣을 예정이며, Phone, Watch, Buds, Tablet만 제작 후 남은 Book,Accessory는 실제 삼성 링크를 넣음.
-  <br>SAMSUNG로고는 기존 삼성전자 페이지에서 소스를 그대로 가져다 활용
-  <br>flexbox를 사용한 layout
-  <br>nav-bar 상단 고정
-  <br>미디어쿼리를 사용하여 반응형으로 개선
-  <br>자바스크립트의 toggle을 활용하여 모바일에서 nav-bar를 간단하게 만듬
+  <br> 각 카테고리 별 링크를 넣을 예정이며, Phone, Watch, Buds, Tablet만 제작 후 남은 Book,Accessory는 실제 삼성 링크를 넣음
+  <br> SAMSUNG로고는 기존 삼성전자 페이지에서 소스를 그대로 가져다 활용
+  <br> nav-bar 상단 고정
+  <br> JavaScript의 toggle을 활용하여 모바일에서 nav-bar를 간단하게 만듬
 
 - unit
 
-  <br>베스트셀러 4가지를 main으로 함
-  <br>Main img들은 삼성전자 페이지에서 그대로 가져다 활용
-  <br>icon은 Font Awesome에서 활용
-  <br>grid를 활용한 layout
+  <br> 베스트셀러 4가지를 main으로 함
+  <br> Main img들은 삼성전자 페이지에서 그대로 가져다 활용
+  <br> icon은 Font Awesome에서 활용
   <br> `<a></a>` tag를 활용한 링크 접속 활용
+
+---
+
+### Phone
+
+- information
+
+  <br> JavaScript를 활용한 이미지 슬라이드 제작
+  <br> - 가로 축이 큰 container box 속에 각 이미지들을 배치한 후 button을 클릭하면 좌,우로 특정 <br> 값만큼 이동하게 하여 슬라이드 효과를 냄
+  <br> 색상에 따른 이미지 변환 효과
+  <br> - 이미지 슬라이드에 있는 이미지들을 색상 별로 확인하기 위해 color button을 제작
+  <br> 이후 원하는 색상을 클릭하게 되면 색상에 맞는 html로 이동하게 됌
+
+- main-information
+
+  <br> flex를 사용한 layout
+  <br> JavaScript를 활용한 이미지 시퀀스 제작 - 특정 스크롤에 위치하여 있을 떄 이미지가 애니메이션처럼 움직이도록 함
 
 ---
 
@@ -111,8 +125,11 @@ phone.html을 3가지 컬러별로 만들어 원하는 색깔을 선택 시 그�
 <br>phone_footer 추가
 <br>미디어쿼리로 모바일에서도 볼 수 있도록 반응형 추가
 <br>스크롤 반응형 애니메이션을 추가 할 예정
+<br>계획에 있던 다른 전자부품 사이트는 만들지 않을 예정.
 
-- 계획에 있던 다른 전자부품 사이트는 만들지 않을 예정.
+22.02.10
+<br>이미지 시퀀스는 만들었으나 원하는 스크롤 위치에서 동작하는 것이 안됌. 다음 날 다시 해결해볼 예정.
 
-  22.02.10
-  <br>이미지 시퀀스는 만들었으나 원하는 스크롤 위치에서 동작하는 것이 안됌. 다음 날 다시 해결해볼 예정.
+22.02.11
+<br>이미지 시퀀스를 원하는 스크롤 위치에서 동작하도록 만듬.
+<br>삼성 웹 제작은 여기서 마무리 지으려함.
