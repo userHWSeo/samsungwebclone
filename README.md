@@ -90,6 +90,7 @@
 22.01.26
 <br>삼성 홈페이지에서 컬러별 이미지가 달라 Handler를 이용하기 까다로움
 <br>삼성에선 원하는 컬러를 선택하면, 그 컬러에 맞는 html로 바뀌도록 만들었음
+<br>NodeJS 강의 시청 후 서버가 바뀌는 것으로 확인.
 
 <br>Black 색상의 주소
 <br>![블랙색상 주소](img/readme_img/Fold3_black.PNG)

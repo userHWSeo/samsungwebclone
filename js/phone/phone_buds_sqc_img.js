@@ -1,5 +1,4 @@
 const sqcImg = document.querySelector('.ad-buds img');
-const btn = document.querySelector('.ad-buds button');
 let imgNum = 0;
 let timer;
 let bool = false;
@@ -11,7 +10,7 @@ let bool = false;
 function playSequence() {
         timer = setInterval(function() {
         if(imgNum < 74){
-            console.log(imgNum);
+            // console.log(imgNum);
             imgNum++;
             sqcImg.src = 'img/sqc_img/galaxy-buds-pro-audio-seq2-' + imgNum + '.jpg';
         }
@@ -34,19 +33,20 @@ function scrollEvent() {
             // console.log(bool);
         }
     }
-    else if(window.innerWidth)
-    if (window.scrollY > 10200 && bool == false){
-        bool = true;
-        playSequence();
-        console.log(bool);
-    }
-    else if(window.scrollY < 9500 && bool == true){
-        imgNum = 0;
-        clearInterval(timer);
-        bool = false;
-        console.log(bool);
+    else {
+        if (window.scrollY > 10200 && bool == false){
+            bool = true;
+            playSequence();
+            //console.log(bool);
+        }
+        else if(window.scrollY < 9500 && bool == true){
+            imgNum = 0;
+            clearInterval(timer);
+            bool = false;
+            //console.log(bool);
+        }
     }
 }
 
-// handler
+// listener
 window.addEventListener("scroll", scrollEvent);
